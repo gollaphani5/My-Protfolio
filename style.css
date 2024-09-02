@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #666;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.about-me p, .info p, .languages p, .expertise p, .projects p, .education p, .achievements p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #555;
+}
+
+.languages ul, .expertise ul, .achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.languages li, .expertise li, .achievements li {
+    background-color: #f9f9f9;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact p {
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.contact a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
